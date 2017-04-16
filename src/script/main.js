@@ -16,7 +16,7 @@ function deleteObject() {
 	}
 }
 //(function() {
-var canvas = this.__canvas = new fabric.Canvas('a');
+var canvas = this.__canvas = new fabric.Canvas('canvas');
 document.onkeydown = KeyPress;
 var scope = this;
 function KeyPress(e) {
